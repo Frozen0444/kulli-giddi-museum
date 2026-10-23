@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#09070f">
+<title>Kulli Giddi Museum 💗 | Neon Birthday Roast</title>
+<style>
+:root{--pink:#e88ca8;--hot:#c94e78;--rose:#a94c6c;--paper:#fff8fa;--pale:#ffeaf0;--ink:#69414f;--line:#f1c7d4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Georgia,"Times New Roman",serif;background:#fff7fa;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(circle at 12% 18%,#f9dbe4 0 2px,transparent 3px),radial-gradient(circle at 86% 70%,#f4c8d6 0 2px,transparent 3px);background-size:44px 44px}
+.page{min-height:100vh;padding:28px 16px 64px;position:relative;overflow:hidden;background:linear-gradient(135deg,#fff9fbef,#fff0f5ed)}
+.wrap{width:min(100%,1050px);margin:auto}
+.tape{display:inline-block;background:#ffe4ec;padding:8px 15px;color:#a74b6b;font-size:.9rem;transform:rotate(-2deg);box-shadow:0 3px 10px #b55d7a14}
+.panel{position:relative;background:#fffdfd;border:1px solid #f2d6df;box-shadow:0 12px 40px #b45a7814;border-radius:5px;padding:clamp(22px,5vw,58px);margin:16px auto;max-width:960px}
+.panel:before{content:"";position:absolute;inset:8px;border:1px dashed #f2d6df;pointer-events:none}
+.kicker{position:relative;color:#c56e8c;text-transform:uppercase;letter-spacing:.18em;font:800 .72rem system-ui,sans-serif}
+h1,h2,h3,p{position:relative}h1{font-size:clamp(2.5rem,8vw,5.6rem);line-height:.98;color:#c55c80;margin:22px 0 16px;font-weight:700;letter-spacing:-.04em}
+h2{font-size:clamp(2rem,5vw,3.5rem);line-height:1.05;color:#c55c80;margin:10px 0 20px}
+p{font-size:1.08rem;line-height:1.8}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center}
+.hero-copy{text-align:left}.lead{font-size:1.12rem;max-width:520px}
+.scrap-image{position:relative;padding:15px;background:white;box-shadow:0 9px 22px #7c3f551f;transform:rotate(3deg);border:1px solid #f0dce3}
+.scrap-image img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;background:#ffe8ef}
+.placeholder{aspect-ratio:4/5;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;background:linear-gradient(145deg,#ffe3eb,#fff5f7);color:#bc6a86;padding:15px}
+.placeholder .emoji{font-size:4rem}.placeholder small{font:700 .8rem system-ui;margin-top:10px}
+.sticker{position:absolute;right:-15px;top:-22px;font-size:3.3rem;transform:rotate(12deg);filter:drop-shadow(0 5px 4px #0001)}
+.caption{text-align:center;padding-top:13px;font-style:italic;color:#996073}
+.flower{position:absolute;font-size:clamp(2rem,5vw,4rem);opacity:.65;pointer-events:none}.f1{top:15px;left:10px;transform:rotate(-18deg)}.f2{bottom:15px;right:12px;transform:rotate(16deg)}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;position:relative}
+button,.btn{font-family:Georgia,serif;border:1px solid #d88ba3;background:linear-gradient(#e9a4b9,#d77c9b);color:#fff;padding:13px 27px;border-radius:999px;font-weight:bold;font-size:1.1rem;cursor:pointer;box-shadow:0 5px 0 #bd6a86;transition:transform .18s,filter .18s;text-decoration:none;display:inline-block}
+button:hover,.btn:hover{transform:translateY(-2px);filter:brightness(1.04)}button:active{transform:translateY(2px);box-shadow:0 2px 0 #bd6a86}
+button.secondary,.btn.secondary{background:linear-gradient(#f5d8e1,#edc0ce);color:#99506a;border-color:#e8bdcb;box-shadow:0 5px 0 #d5a0b1}
+#noBtn{position:relative}
+.section{padding:24px 0 36px}
+.center{text-align:center}
+.surprise-card{max-width:780px;margin:auto;text-align:center;background:#fffdfd;border:1px solid #f0cdd8;padding:clamp(25px,6vw,55px);box-shadow:0 10px 30px #ad58751a;position:relative}
+.big-question{font:900 clamp(2rem,6vw,4rem) system-ui,sans-serif;letter-spacing:.04em;color:#d67d98;text-transform:uppercase;line-height:1.15;margin:24px auto}
+.kiss{font-size:4rem;animation:bob 3s ease-in-out infinite}
+.hidden{display:none!important}
+.notice{min-height:32px;font:700 1rem system-ui;color:#b95074;margin-top:15px}
+.camera{position:relative;max-width:520px;margin:25px auto 10px;background:#d9e4dc;border-radius:22px;padding:18px 18px 23px;box-shadow:0 15px 28px #6f8a781f;transform:rotate(-2deg);border:2px solid #c4d2c9}
+.camera:before{content:"";position:absolute;top:-9px;left:35px;width:90px;height:16px;border-radius:5px 5px 0 0;background:#bdcfc4}
+.camera-screen{background:#f7fbf7;border:8px solid #baccc0;border-radius:10px;padding:8px}
+.camera-screen img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.camera .placeholder{aspect-ratio:4/3;background:linear-gradient(135deg,#e9f5ec,#fdf8f3)}
+.camera-label{display:flex;justify-content:space-between;align-items:center;color:#607e6d;font:800 .8rem system-ui;padding-top:12px}
+.lens{position:absolute;right:16px;top:13px;width:30px;height:30px;border:5px solid #aabdb2;border-radius:50%;background:#e4f2f8}
+.polaroids{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;max-width:850px;margin:38px auto 10px}
+.polaroid{background:#fff;padding:10px 10px 18px;box-shadow:0 8px 20px #9b536719;border:1px solid #f0e2e6;transform:rotate(-3deg);position:relative}
+.polaroid:nth-child(2){transform:rotate(3deg);margin-top:28px}.polaroid:nth-child(3){transform:rotate(-2deg);margin-top:5px}
+.polaroid img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}
+.polaroid .placeholder{aspect-ratio:4/5}
+.polaroid .caption{font-size:.95rem}
+.roast-panel{background:#fff0f4;border:1px solid #f2c5d3;border-radius:20px;padding:24px;max-width:720px;margin:25px auto;text-align:center}
+.roast-text{font-size:clamp(1.15rem,3vw,1.5rem);font-weight:bold;line-height:1.65;min-height:90px;display:grid;place-items:center;color:#a84e70}
+.letter{max-width:790px;margin:26px auto;padding:clamp(25px,6vw,55px);background:#fffdfd;border:1px solid #f0d2dc;box-shadow:0 10px 30px #a74e6b14;line-height:1.95;position:relative}
+.letter:after{content:"💗";position:absolute;top:-22px;right:22px;font-size:2.5rem}
+.letter p{font-size:1.08rem}
+.signature{text-align:right;font-size:1.4rem;font-style:italic;color:#b65d7d}
+.end-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:28px auto;max-width:820px}
+.end-tile{background:#fff;padding:10px;border:1px solid #f0d4dd;box-shadow:0 6px 15px #9b536711;transform:rotate(-2deg)}
+.end-tile:nth-child(even){transform:rotate(3deg)}.end-tile .placeholder{aspect-ratio:1/1}.end-tile p{font-size:.85rem;text-align:center;margin:8px 0 0}
+
+/* 36-photo scrapbook gallery */
+.gallery-tools{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:18px auto}
+.gallery-count{font:700 .9rem system-ui;color:#a65a75;text-align:center;margin:10px}
+.photo-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;max-width:1000px;margin:24px auto}
+.gallery-card{display:block;width:100%;border-radius:0;padding:8px 8px 13px;background:#fff;color:#a34e70;font:inherit;box-shadow:0 7px 18px #9b536719;border:1px solid #f0dce3;position:relative;transform:rotate(var(--tilt,-2deg));transition:transform .2s,box-shadow .2s;cursor:pointer}
+.gallery-card:nth-child(3n){--tilt:2.5deg}.gallery-card:nth-child(4n){--tilt:-3deg}.gallery-card:hover{transform:rotate(0) translateY(-4px);box-shadow:0 12px 24px #9b53672b}
+.gallery-card img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;background:#fff0f5}
+.gallery-card .placeholder{aspect-ratio:4/5}.gallery-caption{text-align:center;font:italic .82rem Georgia,serif;padding:9px 3px 0;color:#a34e70}
+.gallery-card .number{position:absolute;top:10px;left:10px;background:#fffafcdd;border-radius:20px;padding:3px 7px;font:700 .7rem system-ui;color:#a84e70}
+.slideshow{max-width:760px;margin:26px auto 18px;background:#fff;border:1px solid #f0d2dc;box-shadow:0 10px 30px #a74e6b14;padding:14px;position:relative}
+.slide-stage{background:#fff0f5;display:grid;place-items:center;min-height:280px;max-height:72vh;overflow:hidden}
+.slide-stage img{display:block;width:100%;height:min(68vh,620px);object-fit:contain;background:#fff0f5}
+.slide-stage .placeholder{width:100%;min-height:280px;aspect-ratio:4/3}
+.slide-controls{display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;padding:14px 0 2px}
+.slide-caption{text-align:center;color:#a34e70;font-style:italic;padding:6px}
+.lightbox{position:fixed;inset:0;background:#24131ddd;z-index:50;display:none;align-items:center;justify-content:center;padding:14px}
+.lightbox.show{display:flex}.lightbox-inner{width:min(100%,900px);max-height:95vh;background:#fff8fb;padding:12px;position:relative;text-align:center}
+.lightbox-inner img{max-width:100%;max-height:78vh;object-fit:contain}.lightbox-close{position:absolute;top:8px;right:8px;z-index:2;background:#fff;color:#8f3e5d;border:0;padding:8px 12px}
+@media(max-width:760px){.photo-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.gallery-card{padding:5px 5px 9px}.gallery-caption{font-size:.7rem}.gallery-card .number{top:7px;left:7px}}
+@media(max-width:420px){.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.slide-stage{min-height:230px}}
+
+
+/* Extra harmless birthday-girl annoyance features */
+.annoyance-box{max-width:760px;margin:24px auto;padding:24px;background:#fff0f5;border:2px dashed #e8a8bf;border-radius:18px;text-align:center;box-shadow:0 8px 22px #9b536711}
+.annoyance-box h3{color:#b64f78;font-size:1.5rem;margin:6px 0 12px}
+.fake-progress{height:18px;border-radius:20px;background:#f3d3df;overflow:hidden;margin:14px auto;max-width:420px;border:1px solid #e7b6c8}
+.fake-progress span{display:block;width:0;height:100%;background:linear-gradient(90deg,#ee8db0,#c94e78);transition:width .25s}
+.progress-caption{font:700 .85rem system-ui;color:#a65a75}
+.annoyance-log{min-height:58px;font-weight:bold;color:#a84e70;line-height:1.6;margin:12px auto}
+.tiny-button{font-size:.9rem;padding:10px 17px}
+
+
+
+/* Floating birthday-message universe inspired by the reference video */
+.entrance-screen{background:#030205;overflow:hidden;isolation:isolate}
+.message-universe{position:absolute;inset:0;overflow:hidden;perspective:700px}
+.floating-message{position:absolute;left:var(--x);top:var(--y);color:#d92770;font:700 var(--size) Georgia,serif;white-space:nowrap;opacity:0;letter-spacing:.02em;text-shadow:0 1px 2px #ffffffaa,0 0 8px #ff4f9c55;animation:messageDrift var(--duration) linear var(--delay) infinite;transform:rotate(var(--rot)) scale(.8);will-change:transform,opacity}
+.floating-message:nth-child(3n){color:#b92b63}.floating-message:nth-child(4n){color:#d34c83}.floating-message:nth-child(5n){color:#a91550;text-shadow:0 1px 2px #ffffffaa,0 0 12px #f74b8e66}
+.video-intro-card{position:relative;z-index:3;width:min(90%,520px);padding:clamp(24px,5vw,44px) 20px;text-align:center;color:#fff;background:#07050be0;border:1px solid #ff8ab644;border-radius:20px;box-shadow:0 0 70px #e92d7a20;backdrop-filter:blur(5px);animation:videoCardIn 1s cubic-bezier(.2,.8,.2,1) both}
+.video-intro-kicker{font:800 .7rem system-ui,sans-serif;letter-spacing:.24em;color:#ff8ab6}
+.video-intro-title{font:900 clamp(2.5rem,10vw,4.7rem)/.9 Georgia,serif;letter-spacing:.02em;color:#fff;margin:18px 0;text-shadow:0 0 22px #f0448c77}
+.video-intro-title span{color:#ff83b2}
+.video-intro-copy{font:500 1rem/1.8 system-ui,sans-serif;color:#ffe0eb}
+.video-intro-hint{font:italic .8rem Georgia,serif;color:#ce9aaf;margin-top:18px}
+.video-intro-card .entrance-btn{background:linear-gradient(135deg,#ff5a9b,#bb3671);color:white;border:1px solid #ffafd0;box-shadow:0 5px 0 #78204a}
+@keyframes messageDrift{0%{opacity:0;transform:translate3d(0,35px,-100px) rotate(var(--rot)) scale(.65)}12%{opacity:.9}70%{opacity:.75}100%{opacity:0;transform:translate3d(var(--dx),-110vh,120px) rotate(calc(var(--rot) + 15deg)) scale(1.2)}}
+@keyframes videoCardIn{from{opacity:0;transform:translateY(24px) scale(.93)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:520px){.floating-message{white-space:normal;max-width:85vw}.video-intro-card{padding:26px 16px}.video-intro-copy{font-size:.9rem}}
+@media(prefers-reduced-motion:reduce){.floating-message{animation:none!important;opacity:.25}.video-intro-card{animation:none!important}}
+
+
+/* Compact corner entry prompt; keeps the words readable */
+.entrance-screen{background:#030205;overflow:hidden;isolation:isolate}
+.message-universe{position:absolute;inset:0;overflow:hidden;opacity:.88}
+.floating-message{font-size:clamp(10px,1.4vw,16px)!important;white-space:nowrap}
+.corner-gate{position:absolute;left:clamp(14px,4vw,42px);bottom:clamp(18px,5vh,44px);z-index:5;width:min(370px,calc(100% - 28px));padding:20px 22px;background:#0d0810;border:1px solid #ff80ad88;border-radius:16px;box-shadow:0 12px 50px #0009;color:#fff}
+.gate-kicker{font:800 .65rem system-ui,sans-serif;letter-spacing:.17em;color:#ff83b2}
+.gate-title{font:800 clamp(1.5rem,5vw,2rem)/1.15 system-ui,sans-serif;color:#fff;margin:10px 0}
+.gate-sub{font: .95rem/1.5 system-ui,sans-serif;color:#ffd9e7;margin:0 0 14px}
+.gate-buttons{display:flex;gap:10px;flex-wrap:wrap}
+.gate-buttons button{min-width:105px;font:800 .95rem system-ui,sans-serif;padding:11px 20px}
+.gate-note{min-height:22px;margin:12px 0 0;color:#ff9fc2;font:700 .9rem/1.4 system-ui,sans-serif}
+.entrance-screen.leaving{opacity:0;visibility:hidden;pointer-events:none}
+@media(max-width:520px){.corner-gate{left:14px;bottom:18px;width:calc(100% - 28px);padding:17px}.floating-message{white-space:normal;max-width:85vw}}
+
+/* Animated museum entrance */
+body.entrance-locked{overflow:hidden}
+.entrance-screen{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:18px;background:radial-gradient(circle at 50% 30%,#fff9fc 0,#ffe5ee 52%,#e9a1bb 100%);transition:opacity .8s ease,visibility .8s ease}
+.entrance-screen.leaving{opacity:0;visibility:hidden;pointer-events:none}
+.entrance-card{width:min(100%,560px);text-align:center;background:#fffafc;border:2px solid #efbfd0;border-radius:24px;padding:clamp(24px,6vw,46px) 22px;box-shadow:0 20px 70px #8f355522;position:relative;overflow:hidden;animation:entrancePop .8s cubic-bezier(.2,.9,.2,1.2) both}
+.entrance-card:before,.entrance-card:after{content:"";position:absolute;top:-25%;bottom:-25%;width:22%;background:#f3bfd0;opacity:.28;transform:rotate(18deg);animation:glimmer 4s ease-in-out infinite}
+.entrance-card:before{left:-30%}.entrance-card:after{right:-30%;animation-delay:-2s}
+.entrance-stamp{font-size:clamp(3.5rem,13vw,6rem);display:block;animation:stampBounce 1.5s ease-in-out infinite;filter:drop-shadow(0 8px 7px #9e4c6b22)}
+.entrance-kicker{font:900 .72rem system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#bd6282;position:relative}
+.entrance-title{font-size:clamp(2.2rem,8vw,4rem);line-height:1;color:#b94d75;margin:14px 0;position:relative}
+.entrance-sub{font-size:1.05rem;line-height:1.7;position:relative}
+.entrance-btn{position:relative;margin-top:12px;font-size:1.05rem}
+.entrance-hint{font:italic .85rem Georgia,serif;color:#a5687e;margin-top:16px;position:relative}
+.entrance-confetti{position:fixed;top:-20px;z-index:1001;pointer-events:none;animation:entranceFall linear forwards}
+@keyframes entrancePop{from{opacity:0;transform:translateY(28px) scale(.88)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes stampBounce{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-12px) rotate(5deg)}}
+@keyframes glimmer{0%,100%{transform:translateX(0) rotate(18deg)}50%{transform:translateX(70px) rotate(18deg)}}
+@keyframes entranceFall{to{transform:translateY(110vh) rotate(600deg);opacity:.1}}
+@media(prefers-reduced-motion:reduce){.entrance-card,.entrance-stamp,.entrance-card:before,.entrance-card:after,.entrance-confetti{animation:none!important}.entrance-screen{transition:none!important}}
+
+footer{text-align:center;padding:30px 12px;color:#b16a83;font-style:italic}
+.popup{position:fixed;inset:0;z-index:10;background:#3c2034a8;display:none;align-items:center;justify-content:center;padding:20px}.popup.show{display:flex}.popup-inner{background:#fff8fa;max-width:420px;padding:30px;border:2px solid #e8b6c7;text-align:center;box-shadow:0 20px 70px #0003}.popup-inner h2{font-size:2rem}
+.heart{position:fixed;bottom:-35px;pointer-events:none;z-index:20;animation:rise linear forwards}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-10px) rotate(3deg)}}@keyframes rise{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+@media(max-width:700px){.hero-grid{grid-template-columns:1fr}.hero-copy{text-align:center}.lead{margin-left:auto;margin-right:auto}.scrap-image{max-width:320px;margin:5px auto}.actions{justify-content:center}.polaroids{gap:10px}.polaroid{padding:6px 6px 12px}.polaroid .caption{font-size:.75rem}.end-grid{grid-template-columns:repeat(2,1fr)}.panel{padding:22px 18px}.flower{opacity:.35}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* VIDEO-INSPIRED DARK NEON PINK THEME */
+:root{--pink:#ff8ac8;--hot:#ff3eaa;--rose:#ff78c4;--paper:#100a18;--pale:#211026;--ink:#ffe7f5;--line:#8e286a}
+html,body{background:#07060d!important;color:#ffe7f5!important}
+body:before{z-index:0!important;opacity:.75;background-image:radial-gradient(circle,#ff5db5 1px,transparent 1.6px),radial-gradient(circle,#922b8b 1px,transparent 1.8px)!important;background-size:34px 34px,61px 61px!important}
+.page{background:radial-gradient(ellipse at 50% 0%,#24102b 0%,#0a0711 55%,#07060d 100%)!important;z-index:1}
+.panel,.surprise-card,.popup-inner{background:linear-gradient(145deg,#160d1d,#09070f)!important;color:#ffe7f5!important;border:1px solid #ff5bb5!important;border-radius:20px!important;box-shadow:0 0 25px #ff36ad20,0 0 60px #8f1d7420!important}
+.panel:before{border:1px solid #ff65bd35!important;border-radius:14px}
+.tape{background:#2b1028!important;color:#ff9bd0!important;border:1px solid #d83d9d;box-shadow:0 0 14px #ff3eaa30}
+.kicker,.entrance-kicker,.gallery-count{color:#ff85c8!important}
+h1,h2,h3,.big-question{color:#ff9ad3!important;text-shadow:0 0 18px #ff3eaa55}
+p,li,.notice,.lead{color:#f9d9eb!important}
+button,.entrance-btn{background:linear-gradient(135deg,#ff4eae,#c82b86)!important;color:white!important;border:1px solid #ff9bd7!important;border-radius:999px!important;box-shadow:0 0 18px #ff3eaa40!important;font-family:system-ui,sans-serif!important}
+button.secondary{background:#211021!important;color:#ff9acb!important;border-color:#b83a88!important}
+.entrance-screen{background:radial-gradient(ellipse at 50% 20%,#26102e 0%,#0c0712 65%,#07060d 100%)!important}
+.corner-gate{background:linear-gradient(145deg,#160b1a,#09070f)!important;border:1px solid #ff4eae!important;box-shadow:0 0 30px #ff3eaa30,0 20px 70px #000b!important;color:#ffe7f5!important;border-radius:24px!important}
+.gate-kicker{color:#ff7bc5!important}.gate-title{color:#fff2fa!important;text-shadow:0 0 18px #ff3eaa45}.gate-sub,.gate-note{color:#ffd6eb!important}
+.floating-message{color:#ff70c0!important;text-shadow:0 0 10px #ff39a7!important;opacity:.62!important}
+.gallery-card{background:#170c1b!important;color:#ffc2e1!important;border:1px solid #ff63b6!important;box-shadow:0 0 14px #ff3eaa2b!important}
+.gallery-card img{background:#140a18!important}.gallery-caption{color:#ffc2e1!important}.gallery-card .number{background:#220f24dd!important;color:#ff9bd0!important}
+.polaroid,.letter,.letter-card,.scrap-image{background:#160d1a!important;color:#ffe7f5!important;border-color:#ff65bd!important}
+footer{color:#ff9bd0!important}
+.popup{background:#05030bd9!important}
+@keyframes neonPulse{0%,100%{filter:drop-shadow(0 0 5px #ff3eaa55)}50%{filter:drop-shadow(0 0 18px #ff3eaaaa)}}
+.entrance-card{animation:entrancePop .8s cubic-bezier(.2,.9,.2,1.2) both,neonPulse 3s ease-in-out infinite!important}
+
+
+/* Neon birthday-video look: dark starry page, glowing pink headings, pale roast cards */
+:root{--pink:#ff8fc9;--hot:#f02d9b;--rose:#a84f76;--paper:#fff0f6;--pale:#ffe7f1;--ink:#914b6b;--line:#f4a8ce}
+html,body{background:#080610!important;color:#ffe4f2}
+body:before{z-index:0;background-image:radial-gradient(#ff8acb88 1px,transparent 1.5px),radial-gradient(#ffffff55 1px,transparent 1.5px);background-size:37px 37px,71px 71px;opacity:.55}
+.page{z-index:1;background:transparent!important}
+.panel,.letter,.roast-panel,.annoyance-box,.popup-inner{background:#fff0f6!important;border:2px solid #f5b5d2!important;box-shadow:0 0 24px #ff3eab22,0 0 5px #ff8cc844!important;color:#8f4969}
+h1,h2,.entrance-title{color:#ff91cf!important;text-shadow:0 0 12px #f02d9b66,0 0 30px #f02d9b33}
+.kicker{color:#ff8dc9!important}
+button,.tiny-button{background:linear-gradient(110deg,#ff42ad,#c51f83)!important;color:white!important;border:2px solid #ff9bd5!important;border-radius:999px!important;box-shadow:0 0 18px #ed2d9b44!important}
+button.secondary{background:#170b1a!important;color:#ff9dce!important;border-color:#ed5cae!important}
+.roast-text,.annoyance-log,.progress-caption{color:#984766!important}
+.tape{background:#230b21!important;color:#ff9bd5!important;border:1px solid #e944a5}
+.fake-progress{background:#f5d2e3!important;border-color:#e9a6c7!important}.fake-progress span{background:linear-gradient(90deg,#ff75bf,#c51f83)!important}
+/* Let long roast cards read clearly on mobile */
+.roast-panel,.annoyance-box{padding:clamp(20px,5vw,34px)!important;border-radius:24px!important}
+
+
+/* Readability fix: high-contrast text on the pale-pink letter/card backgrounds */
+.letter, .letter p, .letter li, .letter strong, .letter em, .letter-card, .letter-card p { color:#542538 !important; opacity:1 !important; text-shadow:none !important; }
+.panel, .panel p, .panel li, .roast-panel, .roast-panel p, .annoyance-box, .annoyance-box p { color:#542538 !important; opacity:1 !important; }
+.letter p { font-size:clamp(1.05rem,4.2vw,1.35rem) !important; line-height:1.8 !important; }
+
+#preludeScreen{position:fixed;inset:0;z-index:2000;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:20px;background:radial-gradient(ellipse at 50% 35%,#28102d 0%,#0b0611 60%,#05030a 100%);color:#ffe7f5;transition:opacity .8s ease,visibility .8s ease;overflow:hidden}
+#preludeScreen.done{opacity:0;visibility:hidden;pointer-events:none}
+#preludeScreen .prelude-kicker{font:800 .75rem system-ui;letter-spacing:.2em;color:#ff8bc8;position:relative;z-index:2}
+#preludeCount{font:950 clamp(120px,30vw,230px)/.95 system-ui;color:#fff0fa;text-shadow:0 0 20px #ff3eaa,0 0 65px #f02d9b;position:relative;z-index:2;animation:preludePulse .8s infinite alternate}
+@keyframes preludePulse{to{transform:scale(1.08)}}
+#preludeRose{display:none;position:relative;width:min(85vw,360px);height:min(56vh,430px);min-height:300px;z-index:2}
+#preludeRose svg{width:100%;height:100%;overflow:visible}
+#preludeRose .stem{stroke:#55bd79;stroke-width:8;fill:none;stroke-linecap:round;stroke-dasharray:350;stroke-dashoffset:350;animation:preludeStem 1.5s .1s ease-out forwards}
+#preludeRose .leaf{fill:#258c56;transform-box:fill-box;transform-origin:bottom center;transform:scale(0);animation:preludeLeaf .7s 1s ease-out forwards}
+#preludeRose .leaf.two{animation-delay:1.25s}
+#preludeRose .petal{fill:url(#preludePetalGrad);stroke:#ff8ab4;stroke-width:1.5;transform-box:fill-box;transform-origin:50% 90%;transform:rotate(var(--rot)) scale(.05);opacity:.3;animation:preludeBloom .95s var(--delay) cubic-bezier(.2,1.5,.4,1) forwards}
+#preludeRose .rose-glow{filter:drop-shadow(0 0 10px #ff4c8b) drop-shadow(0 0 22px #e91e63)}
+@keyframes preludeStem{to{stroke-dashoffset:0}}@keyframes preludeLeaf{to{transform:scale(1)}}@keyframes preludeBloom{to{transform:rotate(var(--rot)) scale(1);opacity:1}}
+#preludeScreen .rose-caption{display:none;z-index:2;color:#ffd4e5;letter-spacing:.14em;text-transform:uppercase;font:700 .8rem system-ui;margin:0 0 12px}
+#preludeScreen .prelude-hint{z-index:2;color:#ffd6eb;font:italic .9rem Georgia,serif;margin-top:10px}
+
+</style>
+</head>
+<body class="entrance-locked">
+
+<div id="preludeScreen" role="status" aria-live="polite">
+  <div class="prelude-kicker" id="preludeKicker">A LITTLE FLOWER FOR YOU</div>
+  <div id="preludeCount" style="display:none">3</div>
+  <div class="rose-caption" id="preludeRoseCaption">A rose blooming just for Kulli 🌹</div>
+  <div id="preludeRose">
+    <svg viewBox="0 0 320 430" role="img" aria-label="A rose blooming petal by petal">
+      <defs><radialGradient id="preludePetalGrad" cx="35%" cy="25%" r="80%"><stop offset="0" stop-color="#ffc0d8"/><stop offset=".5" stop-color="#ff4c88"/><stop offset="1" stop-color="#a90043"/></radialGradient></defs>
+      <path class="stem" d="M160 400 C155 335 173 270 160 205 C154 180 160 160 160 145"/>
+      <path class="leaf" d="M158 315 C112 316 80 283 90 257 C126 260 153 282 158 315Z"/>
+      <path class="leaf two" d="M164 270 C207 267 238 238 228 214 C194 218 171 239 164 270Z"/>
+      <g class="rose-glow" transform="translate(160 145)">
+        <ellipse class="petal" style="--rot:-70deg;--delay:1.2s" cx="-22" cy="0" rx="27" ry="48"/>
+        <ellipse class="petal" style="--rot:-35deg;--delay:1.4s" cx="-14" cy="-13" rx="27" ry="49"/>
+        <ellipse class="petal" style="--rot:0deg;--delay:1.6s" cx="0" cy="-18" rx="27" ry="49"/>
+        <ellipse class="petal" style="--rot:35deg;--delay:1.8s" cx="14" cy="-13" rx="27" ry="49"/>
+        <ellipse class="petal" style="--rot:70deg;--delay:2s" cx="22" cy="0" rx="27" ry="48"/>
+        <ellipse class="petal" style="--rot:-55deg;--delay:2.15s" cx="-13" cy="6" rx="20" ry="34"/>
+        <ellipse class="petal" style="--rot:-20deg;--delay:2.3s" cx="-7" cy="-5" rx="20" ry="34"/>
+        <ellipse class="petal" style="--rot:20deg;--delay:2.45s" cx="7" cy="-5" rx="20" ry="34"/>
+        <ellipse class="petal" style="--rot:55deg;--delay:2.6s" cx="13" cy="6" rx="20" ry="34"/>
+        <ellipse class="petal" style="--rot:0deg;--delay:2.75s" cx="0" cy="4" rx="16" ry="27"/>
+      </g>
+    </svg>
+  </div>
+  <p class="prelude-hint" id="preludeHint">Blooming just for you, Kulli 🌹</p>
+</div>
+
+
+<div class="entrance-screen" id="entranceScreen" role="dialog" aria-modal="true" aria-labelledby="entranceTitle">
+  <div class="message-universe" aria-hidden="true" id="messageUniverse"></div>
+  <div class="corner-gate">
+    <div class="gate-kicker">SHORTY CHECKPOINT 💀</div>
+    <h1 class="gate-title" id="entranceTitle">Do you want to enter?</h1>
+    <p class="gate-sub">Choose wisely, Kulli Giddi. 😂</p>
+    <div class="gate-buttons">
+      <button id="enterYesBtn">YES 😎</button>
+      <button class="secondary" id="enterNoBtn">NO 🙄</button>
+    </div>
+    <p class="gate-note" id="gateNote" aria-live="polite"></p>
+  </div>
+</div>
+
+<main class="page">
+<div class="flower f1">🌸</div><div class="flower f2">💋</div>
+<div class="wrap">
+<section class="panel" id="home">
+<div class="tape">for my favourite human ♡</div>
+<div class="hero-grid">
+<div class="hero-copy">
+<div class="kicker">a little birthday surprise</div>
+<h1>Look what<br>I made for you 💗</h1>
+<p class="lead">For Kulli, Giddi, Sanjanava… and the one and only Katigi, Kolki & Half-Plate. A tiny website for a very dramatic human. 😂</p>
+<div class="actions"><button id="startBtn">Open your surprise 💌</button><button class="secondary" id="skipBtn">I'm too cool 😒</button></div>
+</div>
+<div class="scrap-image"><div class="sticker">💋</div><div class="camera-screen">
+<img src="photos/photo1.jpg" alt="Birthday girl" onload="this.nextElementSibling.style.display='none'" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+<div class="placeholder"><span class="emoji">📸💗</span><strong>Museum's main suspect</strong><small>Add photos/photo1.jpg</small></div>
+</div><div class="caption">professional nuisance ↴</div></div>
+</div>
+</section>
+
+<section class="section hidden" id="questionSection">
+<div class="surprise-card"><div class="kiss">💌</div><div class="kicker">answer carefully, birthday girl</div><div class="big-question">Do you want<br>a surprise??</div>
+<div class="actions" style="justify-content:center"><button id="yesBtn">YES!! 💗</button><button class="secondary" id="noBtn">NO!!</button></div><div class="notice" id="noNotice" aria-live="polite"></div>
+</div></section>
+
+<section class="section hidden" id="cameraSection">
+<div class="center"><div class="kicker">proof that you're iconic</div><h2>Favorite Person 📸</h2><p>One camera, a few memories, and one professional nuisance.</p></div>
+<div class="camera"><div class="lens"></div><div class="camera-screen">
+<img src="photos/photo1.jpg" alt="Favorite person" onload="this.nextElementSibling.style.display='none'" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+<div class="placeholder"><span class="emoji">📷</span><strong>Favorite person</strong><small>Put her picture at photos/photo1.jpg</small></div>
+</div><div class="camera-label"><span>FAVOURITE PERSON</span><span>♡ 2000</span></div></div>
+<div class="center" style="margin-top:24px"><div class="tape">KULLI GIDDI MUSEUM OF NONSENSE 🏛️💀</div><h2>KULLI GIDDI MUSEUM OF NONSENSE 🏛️💀</h2><p>Welcome to the museum. Here we display 36 rare exhibits of one tiny menace. Tap any photo to inspect the evidence. Please don't feed the drama queen. 💀📸 Add photos as <b>photo1.jpg</b> through <b>photo36.jpg</b>.</p></div>
+<div class="gallery-tools">
+<button id="showGridBtn">Scrapbook collage 🖼️</button>
+<button class="secondary" id="showSlideBtn">Full-screen slideshow ✨</button>
+</div>
+<div class="gallery-count" id="galleryCount">Checking your photo collection…</div>
+<div class="photo-grid" id="photoGrid"></div>
+<div class="slideshow hidden" id="slideshow">
+<div class="slide-stage" id="slideStage"></div>
+<div class="slide-caption" id="slideCaption">Kulli Giddi photo memories 💗</div>
+<div class="slide-controls">
+<button id="prevSlide">← Previous</button>
+<button class="secondary" id="playSlide">▶ Play slideshow</button>
+<button id="nextSlide">Next →</button>
+</div>
+<div class="gallery-count" id="slideNumber">Photo 1 of 36</div>
+</div>
+<div class="center"><button id="continueBtn">Continue, shorty →</button></div>
+</section>
+
+<section class="section hidden" id="roastSection">
+<div class="center"><div class="kicker">an extremely official report</div><h2>Birthday Girl Status 💀</h2></div>
+<div class="roast-panel"><div class="roast-text" id="roastText">MUSEUM SCAN: Drama 100%. Peace 0%. Height: classified under tiny national secrets. 📏💀</div><div class="actions" style="justify-content:center"><button id="roastBtn">ROAST ME, COWARD 😈</button><button class="secondary" id="fakeComplimentBtn">Compliment button (probably fake) 🥺</button></div></div>
+<div class="center"><button id="letterBtn">Proceed to pointless verification →</button></div>
+</section>
+
+<section class="section hidden" id="annoyanceSection">
+<div class="center"><div class="kicker">IMPORTANT MUSEUM ADMINISTRATIVE NONSENSE</div><h2>Shorty Verification Test™ 🤏💀</h2>
+<p>To continue, prove you're not the museum's most dramatic exhibit. This test has absolutely no scientific value.</p></div>
+<div class="annoyance-box">
+<h3>Shorty Verification Test™ — HEIGHT DEPARTMENT 📏💀</h3>
+<p id="heightMessage">Please stand still. The ruler is tiny, but it is trying its best. 😂</p>
+<div class="fake-progress"><span id="fakeBar"></span></div>
+<div class="progress-caption" id="fakePercent">Calibrating ruler: 0%</div>
+<div class="annoyance-log" id="annoyanceLog">System status: shorty not yet verified. 💀</div>
+<div class="actions" style="justify-content:center">
+<button class="tiny-button" id="measureBtn">Measure my height 📏</button>
+<button class="secondary tiny-button" id="verifyBtn">Verify I'm innocent 😇</button>
+</div>
+</div>
+<div class="annoyance-box">
+<h3>Compliment vending machine 💗</h3>
+<p>Insert one (1) compliment request. Machine may dispense nonsense.</p>
+<div class="actions" style="justify-content:center"><button id="complimentMachineBtn">Get a compliment 🥺</button></div>
+<div class="annoyance-log" id="complimentMachineText" aria-live="polite">Waiting for the birthday girl's request…</div>
+</div>
+<div class="center"><button id="toLetterBtn">I've suffered enough. Show the letter →</button></div>
+</section>
+
+<section class="section hidden" id="letterSection">
+<div class="center"><div class="kicker">okay, just one soft moment</div><h2>Happy Birthday, Kulli Giddi 💗</h2></div>
+<div class="letter">
+<p><b>Dear Kulli, Giddi, Sanjanava, Katigi, Kolki, my Half-Plate,</b></p>
+<p>Happy Birthday to my favourite headache! 💗😂 I was going to make this all emotional, but then I remembered you have a whole year of annoying me ahead of you.</p>
+<p>You're my sister from another mother, my partner in chaos, and one of those people who can make a normal day ten times funnier. Our silly conversations, teasing, and random memories mean more than I usually say.</p>
+<p><b>ನಿನ್ನ ಕೀಟಲೆ ಜಾಸ್ತಿ, ಆದ್ರೂ ನೀನು ನನಗೆ ತುಂಬಾ ಸ್ಪೆಷಲ್ ಕಣೇ!</b><br><i>(You tease a lot, but you're really special to me!)</i></p>
+<p>ನಿನ್ನ ಎಲ್ಲಾ ಕನಸುಗಳು ನನಸಾಗಲಿ, ಯಾವಾಗಲೂ ಖುಷಿಯಾಗಿರು. 💗 And please keep the drama at a manageable level. Actually, never mind—it's your birthday, do whatever you want. 😂</p>
+<p>Happy birthday, you stick-thin, pocket-size, Half-Plate menace. Love you loads. Don't screenshot this soft part; my reputation is at stake. 😭</p>
+<div class="signature">— Your favourite headache 💌</div>
+</div>
+<div class="center"><button id="finalBtn">One last surprise 🎉</button></div>
+</section>
+
+<section class="section hidden" id="finalSection">
+<div class="panel center"><div class="kicker">the end… or is it?</div><h2>HAPPY BIRTHDAY!! 🎂💗</h2><p>May your cake be huge, your worries tiny, and your attitude remain illegally oversized.</p>
+<div class="end-grid">
+<div class="end-tile"><div class="placeholder"><span class="emoji">🌸</span><strong>Kulli</strong></div><p>small but loud</p></div>
+<div class="end-tile"><div class="placeholder"><span class="emoji">🪵</span><strong>Katigi</strong></div><p>stick-thin legend</p></div>
+<div class="end-tile"><div class="placeholder"><span class="emoji">🍽️</span><strong>Half-Plate</strong></div><p>full-time menace</p></div>
+<div class="end-tile"><div class="placeholder"><span class="emoji">💋</span><strong>Giddi</strong></div><p>still annoying</p></div>
+</div><button id="againBtn">Start over, shorty ↺</button></div>
+</section>
+<footer>made with love, pink flowers, and a suspicious amount of teasing 💗</footer>
+</div></main>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+<div class="lightbox-inner"><button class="lightbox-close" id="closeLightbox">Close ✕</button><img id="lightboxImage" alt="Selected birthday photo"><div class="slide-caption" id="lightboxCaption"></div><div class="slide-controls"><button id="lightboxPrev">← Previous</button><button id="lightboxNext">Next →</button></div></div></div>
+<div class="popup" id="popup" role="dialog" aria-modal="true"><div class="popup-inner"><div style="font-size:3rem">😈💗</div><h2>NOOOO!! TRY AGAIN</h2><p>You thought you could escape the museum tour? Cute. Your escape request has been rejected by the Department of Shorty Affairs. 💀😂</p><button id="popupClose">Okay fine, show me 💌</button></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const sections=["questionSection","cameraSection","roastSection","letterSection","finalSection"];
+function reveal(id){$(id).classList.remove("hidden");$(id).scrollIntoView({behavior:"smooth",block:"start"});burst(12)}
+function burst(n=22){for(let i=0;i<n;i++){const e=document.createElement("span");e.className="heart";e.textContent=["💗","💕","🌸","✨","💋","🪵"][Math.floor(Math.random()*6)];e.style.left=Math.random()*100+"vw";e.style.fontSize=(14+Math.random()*20)+"px";e.style.animationDuration=(3+Math.random()*4)+"s";document.body.appendChild(e);setTimeout(()=>e.remove(),8000)}}
+$("startBtn").addEventListener("click",()=>reveal("questionSection"));
+$("skipBtn").addEventListener("click",()=> $("popup").classList.add("show"));
+$("popupClose").addEventListener("click",()=>{$("popup").classList.remove("show");reveal("questionSection")});
+$("noBtn").addEventListener("click",()=>{$("noNotice").textContent="NOOOO!! TRY AGAIN 😭💗";$("noBtn").textContent="TRY AGAIN!!";$("popup").classList.add("show")});
+$("yesBtn").addEventListener("click",()=>reveal("cameraSection"));
+$("continueBtn").addEventListener("click",()=>reveal("roastSection"));
+
+// Photo gallery: 50 numbered photo slots, collage + slideshow + lightbox.
+// Put photos/photo1.jpg through photos/photo36.jpg in the photos folder.
+const PHOTO_TOTAL=36;
+let currentPhoto=0, slideTimer=null, photoAvailable=Array(PHOTO_TOTAL).fill(false);
+const captions=[
+"Exhibit 01: attitude bigger than the museum. 💀","Katigi spotted. Stick-thin, drama full-size. 🪵😂",
+"Kolki caught in 4K. Somebody zoom in! 🔎","Half-Plate: came for a snack, stayed for everyone's food. 🍽️",
+"ಇವಳ attitude ಮಾತ್ರ full size! Body loading… 😭","Shorty detected. Measuring tape has filed a complaint. 📏",
+"Evidence of professional nuisance behaviour. 🚨","ಕೀಟಲೆ queen ಆಗಮನ! Hide the peace and quiet. 👑",
+"Certified headache. No refunds, no exchanges. 💀","Favourite person… unfortunately. 💗",
+"Katigi energy: one breeze away from a plot twist. 🪵","ನಿನ್ನ dramaಗೆ limit ಇಲ್ಲ ಕಣೇ! Server down ಆಯ್ತು. 😂",
+"Half-Plate strikes again. Plate says ‘please stop’. 🍽️","Big attitude, tiny patience. 😭",
+"Sanjanava cinematic universe: 50 seasons, zero character development. 🎬","Caught being iconic… allegedly. ✨",
+"Please admire from a safe distance. May cause loud laughter. ⚠️","This exhibit is 90% chaos and 10% birthday cake. 🎂",
+"ಈ poseಗೆ award ಕೊಡ್ಬೇಕಾ ಅಥವಾ warning ಕೊಡ್ಬೇಕಾ? 😂","Rare species: eats half, steals the other half. 🍽️💀"
+]
+function photoPath(i){return `photos/photo${i+1}.jpg`}
+function makePhotoCard(i){
+ const card=document.createElement("button");card.type="button";card.className="gallery-card";card.style.textAlign="left";card.setAttribute("aria-label",`Open photo ${i+1}`);
+ const img=document.createElement("img");img.src=photoPath(i);img.alt=`Kulli Giddi memory ${i+1}`;img.loading="lazy";
+ const ph=document.createElement("div");ph.className="placeholder hidden";ph.innerHTML=`<span class="emoji">${["💗","🪵","🤏","🍽️","🌸","💀"][i%6]}</span><strong>Photo ${i+1}</strong><small>Add photos/photo${i+1}.jpg</small>`;
+ img.onerror=()=>{img.classList.add("hidden");ph.classList.remove("hidden")};
+ img.onload=()=>{photoAvailable[i]=true;ph.classList.add("hidden");updatePhotoCount()};
+ const number=document.createElement("span");number.className="number";number.textContent=`#${i+1}`;
+ const cap=document.createElement("div");cap.className="gallery-caption";cap.textContent=captions[i%captions.length];
+ card.append(number,img,ph,cap);card.addEventListener("click",()=>openLightbox(i));return card;
+}
+function buildGallery(){
+ const grid=$("photoGrid");grid.innerHTML="";
+ for(let i=0;i<PHOTO_TOTAL;i++)grid.appendChild(makePhotoCard(i));
+ showGalleryMode("grid");renderSlide(0);
+}
+function updatePhotoCount(){
+ const n=photoAvailable.filter(Boolean).length;
+ $("galleryCount").textContent=`${n} photo${n===1?"":"s"} loaded · ${PHOTO_TOTAL} slots available`;
+}
+function showGalleryMode(mode){
+ $("photoGrid").classList.toggle("hidden",mode!=="grid");
+ $("slideshow").classList.toggle("hidden",mode!=="slide");
+ if(mode==="slide")renderSlide(currentPhoto);
+}
+function renderSlide(i){
+ currentPhoto=(i+PHOTO_TOTAL)%PHOTO_TOTAL;
+ const stage=$("slideStage");stage.innerHTML="";
+ const img=document.createElement("img");img.src=photoPath(currentPhoto);img.alt=`Birthday memory ${currentPhoto+1}`;
+ const ph=document.createElement("div");ph.className="placeholder hidden";ph.innerHTML=`<span class="emoji">💗📸</span><strong>Photo ${currentPhoto+1}</strong><small>Add photos/photo${currentPhoto+1}.jpg</small>`;
+ img.onerror=()=>{img.classList.add("hidden");ph.classList.remove("hidden")};
+ img.onload=()=>{photoAvailable[currentPhoto]=true;ph.classList.add("hidden");updatePhotoCount()};
+ stage.append(img,ph);$("slideCaption").textContent=captions[currentPhoto%captions.length];$("slideNumber").textContent=`Photo ${currentPhoto+1} of ${PHOTO_TOTAL}`;
+}
+function stopSlide(){if(slideTimer){clearInterval(slideTimer);slideTimer=null}$("playSlide").textContent="▶ Play slideshow"}
+function startSlide(){stopSlide();slideTimer=setInterval(()=>renderSlide(currentPhoto+1),3000);$("playSlide").textContent="❚❚ Pause slideshow"}
+function openLightbox(i){
+ const box=$("lightbox");$("lightboxImage").src=photoPath(i);$("lightboxImage").onerror=()=>{$("lightboxImage").alt="Photo not added yet — add "+photoPath(i)};
+ $("lightboxCaption").textContent=captions[i%captions.length];box.classList.add("show");stopSlide();
+}
+function closeLightbox(){$("lightbox").classList.remove("show")}
+
+const roasts=[
+"HEIGHT DEPARTMENT UPDATE: ruler has requested emotional support after meeting you. 📏😭",
+"Kulli Giddi, ನಿನ್ನ height ನೋಡೋಕೆ ruler ಕೂಡ zoom-in ಮಾಡ್ಬೇಕು ಕಣೇ! 🔎😂",
+"Your height is not missing. It is just loading in 144p. 📶💀",
+"If confidence added inches, you would be taller than the Wi-Fi tower. Unfortunately, it doesn't. 😭",
+"Shorty so small, even the attendance register needs a magnifying glass. 🔎😂",
+"ನಿನ್ನ height measure ಮಾಡೋಕೆ tape measure ಬೇಡ… bookmark ಸಾಕು ಅನ್ಸುತ್ತೆ! 📏💀",
+"Breaking: local ruler says ‘I came here to measure, not to do a rescue mission.’ 🚨😂",
+"Height: pocket edition. Attitude: IMAX 3D. 🎬💀",
+"The ceiling fan has never felt threatened by you. Not once. 😂",
+"Even your shadow looks down and says, ‘we got this, little one.’ 🌚🤏",
+"BREAKING NEWS: Kulli Giddi has entered the room. Peace has left the building. 🚨💀",
+"Katigi alert! ಕಟ್ಟಿಗೆ ತರ ಇದ್ದೀಯಂತೆ, attitude ಮಾತ್ರ 6 ಅಡಿ! 🪵😂",
+"Kolki, ನಿನ್ನ height ಹುಡುಕೋಕೆ Google Maps ಬೇಡ—satellite ಬೇಕು ಕಣೇ! 🛰️",
+"Half-Plate, ನೀನು ಅರ್ಧ ಊಟ ಮಾಡಲ್ಲ… ಅರ್ಧ ಊಟದಿಂದ ಶುರು ಮಾಡಿ ಎಲ್ಲರ plate ಮುಗಿಸ್ತೀಯ! 🍽️😭",
+"ನಿನ್ನ attitudeಗೆ separate Aadhaar card ಮಾಡಿಸ್ಬೇಕು. 😂",
+"ಕಳ್ಳಿ, ನೀನು silent ಆಗಿದ್ದರೆ ಏನೋ ದೊಡ್ಡ ತಪ್ಪು ಮಾಡಿದ್ದೀಯ ಅಂತ ಅರ್ಥ. 💀",
+"Your height is buffering, but your drama has 5G. 📶",
+"ನಿನ್ನ ಕೀಟಲೆ ನೋಡಿದ್ರೆ patience ಕೂಡ leave ಹಾಕುತ್ತೆ ಕಣೇ! 😂",
+"Katigi + Kolki = slim-fit nickname, oversized nonsense. 🪵💀",
+"Happy birthday! You're one year older and absolutely no wiser. Congratulations. 🎂",
+"ಈ ಮುಖ innocent ಅನ್ಸುತ್ತೆ… ಆದರೆ history full criminal activity! 😭",
+"Half-Plate, food court CCTV ನಿನ್ನನ್ನು ಗುರುತಿಸ್ತು. 🍽️📸",
+"You're not the main character. You're the entire technical difficulty screen. 💀",
+"ನಿನ್ನ dramaಗೆ Netflix series ಮಾಡಿದ್ರೆ 19 seasons ಬರತ್ತೆ. 😂",
+"Shorty, even your shadow needs to stand on tiptoe to find you. 🌚",
+"Your attitude is premium; your common sense is still on free trial. 😭",
+"ನೀನು ಒಂದು walking notification—mute ಮಾಡೋ option ಇಲ್ಲ! 📱💀",
+"Warning: birthday girl may steal food, attention, and everyone's last nerve. ⚠️",
+"ಇವಳಿಗೆ compliment ಕೊಟ್ಟರೆ next day full attitude update ಆಗುತ್ತೆ. 😂",
+"Official museum rating: 10/10 chaos, 0/10 peace. 🏛️💀",
+"Your brain says ‘be normal’; your personality taps ‘skip tutorial’. 🎮",
+"ನಿನ್ನ height secret ಅಲ್ಲ ಕಣೇ… rulerಗೆ sympathy ಬೇಕು ಅಷ್ಟೇ. 📏",
+"Half-Plate has never met a snack she couldn't emotionally attach to. 🍟",
+"Happy birthday, you tiny walking headache. Please remain under supervision. 😭💗"
+]
+$("roastBtn").addEventListener("click",()=>{$("roastText").textContent=roasts[Math.floor(Math.random()*roasts.length)];burst(10)});
+$("fakeComplimentBtn").addEventListener("click",()=>{$("roastText").textContent=roasts[Math.floor(Math.random()*roasts.length)];burst(10)});
+$("letterBtn").addEventListener("click",()=>reveal("annoyanceSection"));
+$("toLetterBtn").addEventListener("click",()=>reveal("letterSection"));
+$("finalBtn").addEventListener("click",()=>reveal("finalSection"));
+$("againBtn").addEventListener("click",()=>{sections.forEach(id=>$(id).classList.add("hidden"));$("home").scrollIntoView({behavior:"smooth"});burst(30)});
+
+$("showGridBtn").addEventListener("click",()=>{stopSlide();showGalleryMode("grid")});
+$("showSlideBtn").addEventListener("click",()=>{showGalleryMode("slide");startSlide()});
+$("prevSlide").addEventListener("click",()=>renderSlide(currentPhoto-1));
+$("nextSlide").addEventListener("click",()=>renderSlide(currentPhoto+1));
+$("playSlide").addEventListener("click",()=>slideTimer?stopSlide():startSlide());
+$("closeLightbox").addEventListener("click",closeLightbox);
+$("lightbox").addEventListener("click",e=>{if(e.target===$("lightbox"))closeLightbox()});
+$("lightboxPrev").addEventListener("click",()=>{const i=(currentPhoto+PHOTO_TOTAL-1)%PHOTO_TOTAL;openLightbox(i);});
+$("lightboxNext").addEventListener("click",()=>{const i=(currentPhoto+1)%PHOTO_TOTAL;openLightbox(i);});
+buildGallery();
+
+
+let fakeProgress=0, verifyClicks=0;
+const fakeMessages=[
+"Ruler disconnected. Height signal lost. 📡",
+"Please stop moving. Your attitude is disturbing the measurements. 💀",
+"Measurement error: confidence was mistaken for height. 😂",
+"Searching for a ruler long enough to measure that attitude…",
+"Kannada result: ಕಟ್ಟಿಗೆ ತರ ಇದ್ದೀಯಂತೆ, attitude ಮಾತ್ರ tower ತರ! 🪵",
+"Error 404: extra height not found. Try standing on your confidence. 😭"
+];
+$("measureBtn").addEventListener("click",()=>{
+ fakeProgress=Math.min(100,fakeProgress+17+Math.floor(Math.random()*13));
+ $("fakeBar").style.width=fakeProgress+"%";
+ $("fakePercent").textContent="Calibrating ruler: "+fakeProgress+"%";
+ $("heightMessage").textContent=fakeMessages[Math.floor(Math.random()*fakeMessages.length)];
+ $("annoyanceLog").textContent=fakeProgress>=100
+ ? "FINAL RESULT: Height = classified information. Drama = unlimited. 💀"
+ : "Still measuring… please remain shorty-shaped. 🤏";
+ if(fakeProgress>=100){$("measureBtn").textContent="Measure again (why tho?)";fakeProgress=0;setTimeout(()=>{$("fakeBar").style.width="0%";$("fakePercent").textContent="Calibration mysteriously reset: 0%"},1800)}
+});
+$("verifyBtn").addEventListener("click",()=>{
+ verifyClicks++;
+ const msgs=[
+ "INNOCENCE NOT FOUND. Please try being less dramatic. 😭",
+ "Verification failed: you laughed at your own joke. 💀",
+ "Evidence says guilty of stealing snacks and attention. 🍽️",
+ "Kannada verdict: ನೀನೇ drama queen, appeal reject! 😂",
+ "Final verdict: birthday girl is guilty of being iconic. Case closed. 🏛️"
+ ];
+ $("annoyanceLog").textContent=msgs[(verifyClicks-1)%msgs.length];
+ burst(6);
+});
+const fakeCompliments=[
+"You're so smart! (This message has been reviewed by the museum's comedy department.) 😭",
+"You are graceful, elegant, and only 94% chaos. 💗",
+"You're everyone's favourite person. Don't let this go to your head. It barely fits already. 💀",
+"ನೀನು ತುಂಬಾ ಒಳ್ಳೆಯವಳು ಕಣೇ… ಕೆಲವೊಮ್ಮೆ ಮಾತ್ರ! 😂",
+"Your beauty is timeless. Your drama is unfortunately also timeless. 😭",
+"Compliment dispensed! Please collect your fake trophy at the exit. 🏆"
+];
+$("complimentMachineBtn").addEventListener("click",()=>{
+ $("complimentMachineText").textContent=fakeCompliments[Math.floor(Math.random()*fakeCompliments.length)];
+ burst(5);
+});
+
+
+
+// Intro only: blooming rose, then 3-2-1 countdown, then the original checkpoint.
+(function(){
+ const screen=document.getElementById('preludeScreen');
+ const count=document.getElementById('preludeCount');
+ const rose=document.getElementById('preludeRose');
+ const caption=document.getElementById('preludeRoseCaption');
+ const kicker=document.getElementById('preludeKicker');
+ const hint=document.getElementById('preludeHint');
+ if(!screen) return;
+ const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+ async function runIntro(){
+   count.style.display='block';
+   kicker.textContent='KULLI GIDDI MUSEUM PRESENTS';
+   hint.textContent='Get ready, Kulli… 😂💗';
+   for(let n=3;n>=1;n--){count.textContent=n;await wait(900);}
+   count.style.display='none';
+   kicker.textContent='A LITTLE FLOWER FOR YOU';
+   hint.textContent='Blooming just for you, Kulli 🌹';
+   rose.style.display='block';
+   caption.style.display='block';
+   await wait(5200);
+   screen.classList.add('done');
+   setTimeout(()=>screen.remove(),850);
+ }
+ runIntro();
+})();
+
+// Entrance animation: pink reveal, bouncing museum stamp and harmless confetti.
+
+// Create the floating pink birthday-message cloud, like the uploaded reference video.
+const floatingLines=[
+ "KULLI GIDDI DETECTED 💀","Happy Birthday, Shorty 🤏","Katigi spotted 🪵",
+ "Kolki caught in 4K 📸","Half-Plate has entered the chat 🍽️",
+ "Sanjanava: 36 photos, zero shame 😂","ATTITUDE: XL. HEIGHT: MINI.",
+ "Drama loading… please wait ⏳","Birthday queen of nonsense 👑",
+ "ಇವಳ ಕೀಟಲೆ ಅಯ್ಯೋ! 😭","ನಿನ್ನ attitudeಗೆ separate building ಬೇಕು 😂",
+ "ಕಟ್ಟಿಗೆ ತರ ಇದ್ದೀಯಂತೆ, confidence ಮಾತ್ರ tower ತರ 🪵",
+ "Half-Plate: everyone's food is under investigation 🍟",
+ "Height signal not found 📡","Peace left the building 🚨",
+ "One shorty. Thirty-six exhibits. Endless evidence 💀",
+ "ನೀನು silent ಅಂದ್ರೆ ಏನೋ plan ಮಾಡ್ತಿದ್ದೀಯ 😂",
+ "Drama level: 9999/10","Common sense is reconnecting… 📶",
+ "Shorty.exe has stopped responding 🤏","Museum exhibit #001: professional nuisance",
+ "Happy Birthday, Katigi! 🪵🎂","Happy Birthday, Kolki! 😂🎉",
+ "Happy Birthday, Half-Plate! 🍽️💀","Happy Birthday, Kulli Giddi! 🎂",
+ "ನಿನ್ನ dramaಗೆ Netflix ಕೂಡ ಬೇಡ ಅಂತ ಹೇಳ್ತು 😂",
+ "Attitude full size, patience half size 💀","Cake first, nonsense forever 🎂",
+ "Official verdict: guilty of being annoying 🚨","Birthday menace of the year 🏆",
+ "ಈ poseಗೆ award ಬೇಡ, warning ಸಾಕು 😂","36 exhibits of questionable decisions 📸",
+ "Tiny terror, giant headache 🤏","ನಿನ್ನ ಮಾತಿಗೆ mute button ಇದ್ಯಾ? 📱",
+ "Happy Birthday, Sanjanava! 🎉","Department of Shorty Affairs is calling 📏",
+ "Half-Plate, plate owners have filed a complaint 🍽️","Kulli Giddi museum: chaos preserved forever 🏛️",
+ "Roast incoming… hide your ego 🔥","No sweet intro. Straight to the evidence 💀"
+]
+const messageUniverse=$("messageUniverse");
+if(messageUniverse){
+ floatingLines.forEach((line,i)=>{
+  const span=document.createElement("span");span.className="floating-message";span.textContent=line;
+  span.style.setProperty("--x",(Math.random()*88)+"%");
+  span.style.setProperty("--y",(65+Math.random()*45)+"%");
+  span.style.setProperty("--size",(12+Math.random()*15)+"px");
+  span.style.setProperty("--duration",(5+Math.random()*7)+"s");
+  span.style.setProperty("--delay",(-Math.random()*12)+"s");
+  span.style.setProperty("--rot",(-14+Math.random()*28)+"deg");
+  span.style.setProperty("--dx",(-70+Math.random()*140)+"px");
+  messageUniverse.appendChild(span);
+ });
+}
+
+function entranceConfetti(n=34){
+ const pieces=["💗","✨","🌸","💀","🪵","🎉"];
+ for(let i=0;i<n;i++){
+  const el=document.createElement("span");el.className="entrance-confetti";
+  el.textContent=pieces[Math.floor(Math.random()*pieces.length)];
+  el.style.left=(Math.random()*100)+"vw";
+  el.style.fontSize=(14+Math.random()*22)+"px";
+  el.style.animationDuration=(2.8+Math.random()*2.8)+"s";
+  el.style.animationDelay=(Math.random()*.45)+"s";
+  document.body.appendChild(el);setTimeout(()=>el.remove(),6500);
+ }
+}
+let noTaps=0;
+function enterMuseum(){
+ const screen=$("entranceScreen");
+ screen.classList.add("leaving");
+ document.body.classList.remove("entrance-locked");
+ entranceConfetti(26);
+ setTimeout(()=>screen.remove(),850);
+}
+$("enterYesBtn").addEventListener("click",enterMuseum);
+$("enterNoBtn").addEventListener("click",()=>{
+ noTaps++;
+ const note=$("gateNote");
+ const noBtn=$("enterNoBtn");
+ const yesBtn=$("enterYesBtn");
+ const lines=[
+  "NO? Wrong answer. Try again. 💀",
+  "Still NO? The NO button is getting suspicious… 😂",
+  "Museum rule: every NO doubles the YES pressure. 😈",
+  "NO x4. Kulli Giddi, just enter already. 🤏",
+  "The museum has filed a complaint against your NO. 🏛️",
+  "Okay shorty, the button has officially lost patience. 😭"
+ ];
+ note.textContent=lines[Math.min(noTaps-1,lines.length-1)];
+ noBtn.textContent="NO ×"+Math.pow(2,noTaps)+" 🙄";
+ noBtn.style.transform="scale("+Math.min(1+noTaps*.13,1.8)+")";
+ yesBtn.style.transform="scale("+Math.min(1+noTaps*.08,1.5)+")";
+ // Add a few more NO labels as a playful visual doubling gag.
+ if(noTaps<=4){
+  const clone=noBtn.cloneNode(true);
+  clone.removeAttribute("id");clone.textContent="NO ×"+Math.pow(2,noTaps)+" 💀";
+  clone.addEventListener("click",()=>{$("enterNoBtn").click()});
+  $("gateExtraNos")?.remove();
+  const extras=document.createElement("div");extras.id="gateExtraNos";extras.className="gate-buttons";extras.style.marginTop="10px";
+  for(let i=0;i<Math.min(Math.pow(2,noTaps),8);i++){
+   const b=document.createElement("button");b.className="secondary";b.textContent="NO 🙄";
+   b.addEventListener("click",()=>$("enterNoBtn").click());extras.appendChild(b);
+  }
+  note.after(extras);
+ }
+});
+
+setInterval(()=>{if(Math.random()>.55)burst(1)},2600);
+</script>
+</body></html>
